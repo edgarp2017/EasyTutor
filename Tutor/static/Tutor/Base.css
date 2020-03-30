@@ -1,7 +1,7 @@
 body {
     background-color: #FAFAFA;
     font-family: 'Times New Roman', Times, serif;
-    float: left;
+    width: 100%;
 }
 
 header {
@@ -66,8 +66,9 @@ header {
 
 .content {
     padding-top: 80px;
-    width: 100%;
+    width: 80%;
     top: 83px;
     left: 0px;
     margin-right: 750px;
 }
+
