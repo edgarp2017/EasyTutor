@@ -39,7 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'crispy_forms',
-    'Tutor'
+    'Tutor',
+    'Users',
 ]
 
 MIDDLEWARE = [
@@ -130,3 +131,5 @@ LOGIN_REDIRECT_URL = '/'
 LOGOUT_REDIRECT_URL = '/'
 
 ACCOUNT_ACTIVATION_DAYS = 7
+
+AUTH_USER_MODEL = 'Users.User'
