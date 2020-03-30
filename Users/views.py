@@ -14,7 +14,7 @@ from .forms import StudentSignUpForm, TeacherSignUpForm
 
 def home(request):
     if request.user.is_authenticated:
-        if request.user.is_teacher:
+        if request.user.is_mod:
             return redirect('/')
         else:
             return redirect('/')
