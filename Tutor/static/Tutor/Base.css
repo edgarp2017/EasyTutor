@@ -1,9 +1,11 @@
-body {
-    background-color: #FAFAFA;
-    font-family: 'Times New Roman', Times, serif;
-    width: 100%;
-}
 
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
 header {
     background-color: #FAFAFA;
     border-bottom: 1px solid #cccccc;
@@ -41,6 +43,7 @@ header {
 }
 
 .icons {
+    font-family: 'Amatic SC', cursive;
     display: flex;
     justify-content: flex-end;
     width: 30%; 
@@ -71,4 +74,17 @@ header {
     left: 0px;
     margin-right: 750px;
 }
-
+.sign-up{
+    font-family: 'Amatic SC', cursive; 
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+.login h1{
+    margin: 0;
+    padding: 0;
+    font-family: 'Amatic SC', cursive;
+    font-size: 16px;
+    display: block;
+    text-decoration: none ;
+}

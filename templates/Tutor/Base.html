@@ -2,12 +2,16 @@
 
 <html lang="en">
 <head>
+   
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/9c3fd62c76.js" crossorigin="anonymous"></script>
     <title>Easy Tutor</title>
+    <link rel = "icon" href = " https://vignette.wikia.nocookie.net/pokemontowerdefensethree/images/f/f3/Squirtle.jpg/revision/latest?cb=20160806214440" 
+        type = "image/x-icon"> 
 </head>
-<body>
+<body class = "container"> 
+   
     <link rel="stylesheet" href="{% static 'Tutor/Base.css' %}">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
@@ -35,8 +39,9 @@
                 <a href="/" class="explore">
                     <i class="far fa-compass"></i>
                 </a>-->
-                <a href="/" class="sign-in">
-                    <i class="fas fa-sign-in-alt"></i>
+                <a href="/" class="login" >
+                    <i class="fas fa-sign-in-alt" ></i>
+                    <h1>Log in</h1>
                 <a href="/" class="activity">
                     <i class="far fa-heart"></i>
                 </a>
@@ -48,38 +53,43 @@
         </div>
     
     </header>
-
+ 
+      
    
-   <div class="w3-container w3-light-blue w3-center" style="padding:128px 16px">
+    <div class="w3-container w3-light-blue w3-center" style="padding:128px 16px">
       <h1 class="w3-margin w3-jumbo">Welcome</h1>
       <p class="w3-xlarge"> <img src="https://www.startheregoplaces.com/media/cms_page_media/223/Header_Education_Options.png"></p>
-      <i class="fas fa-user-plus w3-jumbo "   style="width= 1000px;"></i>
+      <i class="fas fa-user-plus w3-jumbo " ></i>
+      <p class= " sign-up">Sign up</p>
     </div>
 
     <div class="w3-container" style="padding:128px 16px" id="about">
-        <h3 class="w3-center">ABOUT US</h3>
-         <p class="w3-center w3-large"></p>
+        <h3 class="w3-center" style = "font-weight: bold">ABOUT US</h3>
+         <p class="w3-center w3-large">We understand that high school or college students sometimes have a problem with their homework
+         or project assignments and have a difficulty reaching their Professors. Our ideal is to be a center of professors or tutors who want to give help and students who need help
+         and meet each other on the easiest way. Let us be part of your successful
+    please fix my English</p>
     <div class="w3-row-padding w3-center" style="margin-top:64px">
         <div class="w3-third">
          <i class="fas fa-user-tie w3-margin-bottom w3-jumbo w3-center"></i>
-         <p class="w3-large">Professor</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+         <p class="w3-large">Professor/Tutor</p>
+        <p>Tutors will have a flexible time to help student one by one</p>
     </div>
     <div class="w3-third">
       <i class="fas fa-user-graduate w3-margin-bottom w3-jumbo"></i>
-      <p class="w3-large">Passion</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+      <p class="w3-large">Student</p>
+      <p>Students can have a high pace to gain help in any subject</p>
     </div>
     <div class="w3-rowthird">
       <i class="fas fa-book w3-margin-bottom w3-jumbo"></i>
-      <p class="w3-large ">Design</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+      <p class="w3-large ">Meterial</p>
+      <p>Our goal is to make onlince accessible for study to learn and gain good grades. The tutors also prepare good and useful material to the students</p>
     </div>
     </div>
 </div>
 
     
-
+   
     <footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
   <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
   <div class="w3-xlarge w3-section">
@@ -91,6 +101,6 @@
     <i class="fa fa-linkedin w3-hover-opacity"></i>
   </div>
   <p></p>
-</footer>
+    </footer>
 </body>
 </html>
