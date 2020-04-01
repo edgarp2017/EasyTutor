@@ -1,0 +1,48 @@
+.container {
+    background-color:  lightgray;
+    width: 60%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+header {
+    border-bottom: 1px solid #cccccc;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    justify-content: left;
+    padding: 12px;
+    flex-wrap: wrap;
+    width: 155%;
+}
+
+.navigation a {
+    color: #111111;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 30%;
+}
+
+.logo a {
+    font-size: 25px;
+    padding-left: 10px;
+    text-decoration: none;
+}
+
+.box{
+    margin-top: 100px;
+    margin-left: 40px;
+}
+

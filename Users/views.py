@@ -33,7 +33,7 @@ class StudentSignUpView(CreateView):
     success_url = '/'
 
     def get_context_data(self, **kwargs):
-        kwargs['user_type'] = 'student'
+        kwargs['user_type'] = 'Student'
         return super().get_context_data(**kwargs)
 
     def form_valid(self, form):
@@ -47,7 +47,7 @@ class TeacherSignUpView(CreateView):
     success_url = '/'
 
     def get_context_data(self, **kwargs):
-        kwargs['user_type'] = 'mod'
+        kwargs['user_type'] = 'Moderator'
         return super().get_context_data(**kwargs)
 
     def form_valid(self, form):

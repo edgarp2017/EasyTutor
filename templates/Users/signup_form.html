@@ -1,6 +1,38 @@
 {% load crispy_forms_tags %}
-
+{% load static %}
 {% block content %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/9c3fd62c76.js" crossorigin="anonymous"></script>
+    <title>Easy Tutor</title>
+    <link rel = "icon" href = " https://vignette.wikia.nocookie.net/pokemontowerdefensethree/images/f/f3/Squirtle.jpg/revision/latest?cb=20160806214440" 
+        type = "image/x-icon"> 
+
+</head>
+<body class = "container"> 
+   
+    <link rel="stylesheet" href="{% static 'Users/Signup_form.css' %}">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <header>
+        <div class="navigation">
+            <div class="logo">
+                <a href="/">
+                    <i class="fas fa-university"></i>
+                    EasyTutor
+                </a>
+            </div>
+            
+        </div>
+    
+    </header>
+     
   <div class="row">
     <div class="col-md-8 col-sm-10 col-12">
       <h2>Sign up as a {{ user_type }}</h2>
@@ -12,4 +44,7 @@
       </form>
     </div>
   </div>
+
+  </body>
+</html>
 {% endblock %}
